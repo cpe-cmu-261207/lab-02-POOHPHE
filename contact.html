@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        #divTopBotMargin{
+            margin-top: 10px; 
+            margin-bottom: 10px;
+        }
+        td{
+            min-width: 500px;
+            padding: 15px;
+            font-size: 20px;
+        }
+        .tab{
+            z-index: 10;
+            background-color: white;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 20px;
+            text-align: center;
+            line-height: 30px;
+            grid-area: header;
+        }
+        #animate_percent{
+            animation:bgc 10s linear 1s infinite alternate;
+            
+        }
+        @keyframes bgc{
+            0%{
+                background-color: white;
+            }
+            25%{
+                background-color: aqua;
+            }
+            50%{
+                background-color: blueviolet;
+            }
+            100%{
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body id="animate_percent">
+    <div class="tab">
+        <table style="text-align: center;">
+            <tr>
+                <td>
+
+                    <a href="home.html">Home</a>
+                </td>
+                <td>
+
+                    <a href="gallery.html">Gallery</a>
+                </td>
+                <td>
+                    <a href="contact.html">Contact</a>
+
+
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    <br><br><br>
+    <div style="border: 2px solid black; padding-left: 3%; margin-left: 3%; margin-right: 3%;">
+            <table>
+                <tr>
+                    <td>
+                        <h1>Pherawat Wongsawad</h1>
+                        <h2>Student</h2>
+                        <h3>heartrockbreak@gmail.com</h3></td>
+                    <td >
+                        <img src="https://miro.medium.com/max/11400/1*lS9ZqdEGZrRiTcL1JUgt9w.jpeg" style="float:right" height="125px" >
+                    </td>
+                </tr>
+            </table>  
+    </div>
+ <br><br>
+ <div class="row justify-content-center" id="divTopBotMargin">
+        <form class="col-10 col-sm-10 col-lg-8" style="background-color: lightblue;">
+            <div class="row rows-col-2" id="divTopBotMargin">
+              <div class="col-md-12 col-lg-6" id="divTopBotMargin">
+                <label for="name">Your Name (required)</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="col-md-12 col-lg-6" id="divTopBotMargin">
+                  <label for="email">Your Email (required)</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" >          
+              </div>
+            </div>
+            <div class="row" id="divTopBotMargin">
+            <div class="col" id="divTopBotMargin">
+                <label for="subject">Subject</label>
+                <input type="text" class="form-control" id="subject">
+              </div>
+            </div>
+            
+            <div class="form-group" id="divTopBotMargin">
+                <label for="exampleFormControlTextarea1">Your Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div style="text-align: center;" id="divTopBotMargin">
+              <button type="submit" class="btn btn-danger" id="divTopBotMargin">SEND</button>
+              
+                </div>
+          </form> 
+    </div>
+<br><br><br><br>
+</body>
+</html>
