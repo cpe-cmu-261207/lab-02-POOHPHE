@@ -30,7 +30,7 @@
         }
         @keyframes bgc{
             0%{
-                background-color: rgb(173, 188, 255);
+                background-color: rgb(74, 86, 255);
             }
             25%{
                 background-color: rgb(37, 52, 255);
@@ -39,7 +39,7 @@
                 background-color: rgb(37, 24, 219);
             }
             100%{
-                background-color: rgb(3, 2, 54);
+                background-color:rgb(2, 10, 54);
             }
         }
     </style>
@@ -78,7 +78,7 @@
     <div class="container">
         <div class="row justify-content-md-center">
           
-          <div class="col-md-6"><h1 class="display-1 bg-warning">GPA Calculator</h1>
+          <div class="col-md-6"><h1 class="display-1 text-white">GPA Calculator</h1>
               </div>
               </div>
     </div>
@@ -87,7 +87,7 @@
         <div class="row justify-content-md-center">
           
           <div class="col-md-6">
-            <label for="subject" class="form-label bg-warning">Enter the Subject</label>
+            <label for="subject" class="form-label text-white">Enter the Subject</label>
             <div class="input-group input-group-lg">
         <span class="input-group-text" id="inputGroup-sizing-lg">Subject ID</span>
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="subject">
@@ -97,7 +97,7 @@
         </div>
         <div class="row justify-content-md-center">
             <div class="col-md-6">
-        <label for="term" class="form-label bg-warning">Select Semester</label>
+        <label for="term" class="form-label text-white">Select Semester</label>
     
         <select id="term" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
             <option value="2/2563" selected="selected">2/2563</option>
@@ -116,7 +116,7 @@
     </div>
     <div class="row justify-content-md-center">
         <div class="col-md-6">
-    <label for="gpa" class="form-label bg-warning">Select GPA</label>
+    <label for="gpa" class="form-label text-white">Select GPA</label>
 
     <select id="gpa" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"> 
         <option value="4.00" selected="selected">A</option>
@@ -131,7 +131,7 @@
    </div>
     <div class="row justify-content-md-center">
         <div class="col-md-6">
-            <label for="credit" class="form-label bg-warning">Credit</label>
+            <label for="credit" class="form-label text-white">Credit</label>
         <select id="credit" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
                         <option value="3" selected="selected">3</option>
                         <option value="2">2</option>
@@ -140,7 +140,7 @@
     </div>
     <div class="row justify-content-md-center">
         <div class="col-md-6">
-        <label for="termFilter" class="form-label bg-warning">Select Semester To Calculate</label>
+        <label for="termFilter" class="form-label text-white">Select Semester To Calculate</label>
 
         <select id="termFilter" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
             <option value="2/2563">2/2563</option>
@@ -161,19 +161,19 @@
     <div class="col-md-6">
     <div class="form-check form-switch">
         <input class="form-check-input" type="checkbox" id="switch" >
-        <label class="form-check-label bg-danger" for="flexSwitchCheckChecked">Faculty Mode</label>
+        <label class="form-check-label text-white" for="flexSwitchCheckChecked">Faculty Mode</label>
     </div>
     <div class="form-check form-switch">
         <input class="form-check-input" type="checkbox" id="switchTerm" >
-        <label class="form-check-label bg-danger" for="flexSwitchCheckChecked">Semester Filter Mode</label>
+        <label class="form-check-label text-white" for="flexSwitchCheckChecked">Semester Filter Mode</label>
     </div>
-    <button type="submit" class="btn btn-primary" id="add" onclick="add()">Add</button>
+    <button type="submit" class="btn btn-warning" id="add" onclick="add()">Add</button>
 
     <button type="submit" class="btn btn-success" onclick="calculate()">Calculate</button>
     <br><br>
     <div id="output" class="text-warning bg-dark"></div>
     <br>
-    <label class="list bg-light" for="flexSwitchCheckChecked">Subject List</label>
+    <label class="list text-white" for="flexSwitchCheckChecked">Subject List</label>
 <ul id="list"class="list-group bg-success">
 
 </ul>
