@@ -6,7 +6,7 @@ function random(min, max) {
   
   function setup() {
     const canvas = document.getElementById('falling-snow-canvas');
-    canvas.width = window.innerWidth;
+    canvas.width = window.innerWidth-20;
     canvas.height = window.innerHeight*3;
   
     return {
