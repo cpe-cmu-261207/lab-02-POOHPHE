@@ -1,6 +1,6 @@
     function addLi(subject,term,gpa,credit){
         const li = document.createElement('LI')
-        const t = document.createTextNode('Subject ID: '+subject+' Semester: '+term+' GPA: '+gpa+' Credit: '+credit)
+        const t = document.createTextNode('Subject ID: '+subject+' Semester: '+term+' GPA: '+gpa+' Credit: '+credit+"        ")
         li.appendChild(t)
         li.className = "list-group-item"
         const btn = document.createElement('button')
@@ -98,13 +98,9 @@ function add(){
     if(subject==="" || term ==="" ||gpa===""||credit===""){
         document.getElementById('output').innerText = `You must enter all input boxes`
     }else{
-
+		document.getElementById('output').innerText = ``
         addLi(subject, term, gpa,credit)
     }
     
 
-}
-function deleteSubject(id){
-    console.log(id)
-    //document.getElementById(id).innerHTML = ''
 }
