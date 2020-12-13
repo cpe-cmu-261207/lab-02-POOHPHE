@@ -1,6 +1,6 @@
 # 261207-Lab-02
 ### Week 2 - CSS and JavaScript
-
+##github.io link: https://cpe-cmu-261207.github.io/lab-02-POOHPHE/
 1. ให้ นศ. ปรับปรุง Personal Web Site ที่ได้พัฒนาจาก Lab-01 โดยใช้ **CSS** หรือ **CSS Framework**
 2. ให้ นศ. เพิ่มความสามารถให้กับ Personal Web Site ด้วยการเพิ่ม**เพจสำหรับการคำนวณ GPA**
 
