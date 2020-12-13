@@ -96,7 +96,9 @@ function add(){
     const gpa = document.getElementById('gpa').value 
     const credit = document.getElementById('credit').value
     if(subject==="" || term ==="" ||gpa===""||credit===""){
-        document.getElementById('output').innerText = `You must enter all input boxes`
+        document.getElementById('output').innerText = `You must enter all input boxes.`
+    }else if(subject.length != 6){
+        document.getElementById('output').innerText = `You must enter 6 digits subject id.`
     }else{
 		document.getElementById('output').innerText = ``
         addLi(subject, term, gpa,credit)
